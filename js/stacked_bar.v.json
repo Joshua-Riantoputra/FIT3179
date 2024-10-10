@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "data/state_v_socio_HE.csv"},
+    "transform": [
+        {"fold": [
+            "Animal Production and Animal Primary Products",
+            "Commercial Services and Tourism",
+            "Construction",
+            "Culture and Society",
+            "Defence",
+            "Economic Framework",
+            "Education and Training",
+            "Energy",
+            "Environmental Management",
+            "Environmental Policy, Climate Change and Natural Hazards",
+            "Health",
+            "Indigenous",
+            "Information and Communication Services",
+            "Law, Politics and Community Services",
+            "Manufacturing",
+            "Mineral Resources (excl. Energy Resources)",
+            "Plant Production and Plant Primary Products",
+            "Transport",
+            "Expanding Knowledge",
+            "Total" ],
+            "as": ["Goal", "Spending"]
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+      "x": {"aggregate": "sum", "field": "Spending"},
+      "y": {"field": "Goal"},
+      "color": {"field": "State"}
+    }
+  }

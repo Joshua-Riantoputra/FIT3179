@@ -7,9 +7,9 @@
         "name": "rawData",
         "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv",
         "transform": [
-          {"type": "formula", "expr": "datum.field", "as": "stk1"},
-          {"type": "formula", "expr": "datum.field", "as": "stk2"},
-          {"type": "formula", "expr": "datum.Total", "as": "size"}
+          {"type": "formula", "expr": "datum.Field", "as": "stk1"},
+          {"type": "formula", "expr": "datum.State", "as": "stk2"},
+          {"type": "formula", "expr": "datum.Money", "as": "size"}
         ]
       },
       {
@@ -21,7 +21,7 @@
             "expr": "!groupSelector || groupSelector.stk1 == datum.stk1 || groupSelector.stk2 == datum.stk2"
           },
           {"type": "formula", "expr": "datum.stk1+datum.stk2", "as": "key"},
-          {"type": "fold", "fields": ["stk1", "stk2"], "as": ["stack", "grpId"]},
+          {"type": "fold", "fields": ["Field", "State"], "as": ["stack", "grpId"]},
           {
             "type": "formula",
             "expr": "datum.stack == 'stk1' ? datum.stk1+' '+datum.stk2 : datum.stk2+' '+datum.stk1",

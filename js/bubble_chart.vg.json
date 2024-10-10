@@ -8,7 +8,7 @@
     "height": 400,
     "projection": {"type": "mercator"},
     "data": {
-        "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/fit3179_hw10/refs/heads/main/data/objective_v_category.csv"
+        "url": "data/field_v_category.csv"
       },
     "hconcat": [
         {
@@ -24,7 +24,7 @@
                 },
                 "size": {"value": 100},
             "tooltip": [
-                {"field": "state", "type": "nominal", "title": "State"},
+                {"field": "Division", "type": "nominal", "title": "Field"},
                 {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},
                 {"field": "Universities", "type": "quantitative", "title": "Universities", "format": ","},
                 {"field": "Businesses", "type": "quantitative", "title": "Businesses", "format": ","}
@@ -44,7 +44,7 @@
                 },
                 "size": {"value": 100},
             "tooltip": [
-                {"field": "state", "type": "nominal", "title": "State"},
+                {"field": "Division", "type": "nominal", "title": "Field"},
                 {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},
                 {"field": "Universities", "type": "quantitative", "title": "Universities", "format": ","},
                 {"field": "Businesses", "type": "quantitative", "title": "Businesses", "format": ","}
@@ -64,7 +64,7 @@
                 },
                 "size": {"value": 100},
             "tooltip": [
-                {"field": "state", "type": "nominal", "title": "State"},
+                {"field": "Division", "type": "nominal", "title": "Field"},
                 {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},
                 {"field": "Universities", "type": "quantitative", "title": "Universities", "format": ","},
                 {"field": "Businesses", "type": "quantitative", "title": "Businesses", "format": ","}

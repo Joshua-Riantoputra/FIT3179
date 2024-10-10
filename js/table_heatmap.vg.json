@@ -1,0 +1,15 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "University Spending per Field of Study, by State",
+    "data": {"url": "data/state_v_uni_field.csv"},
+    "mark": "rect",
+    "encoding": {
+      "y": {"field": "State", "type": "ordinal"},
+      "x": {"field": "Field", "type": "ordinal"},
+      "color": {"aggregate": "mean", "field": "Money"}
+    },
+    "config": {
+      "axis": {"grid": true, "tickBand": "extent"}
+    }
+  }
+  
