@@ -1,6 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_socio_HE.csv"},
+    "width": 600,
+    "height": 600,
     "transform": [
         {"fold": [
             "Animal Production and Animal Primary Products",
