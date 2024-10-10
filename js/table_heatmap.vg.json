@@ -1,9 +1,31 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "goal state uni, change data",
     "width": "container",
     "height": 650,
-    "data": {"url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_socio_HE.csv"},
+    "transform": [
+      {"fold": [
+        "Animal Products",
+        "Commercial Services",
+        "Construction",
+        "Culture and Society",
+        "Defence",
+        "Economics",
+        "Education and Training",
+        "Energy",
+        "Environmental Management",
+        "Environmental Policy",
+        "Health",
+        "Indigenous",
+        "Information Services",
+        "Law and Politics",
+        "Manufacturing",
+        "Mineral Resources",
+        "Plant Products",
+        "Transport",
+        "Expanding Knowledge"
+      ], "as": ["Field", "Money"]}
+    ],
     "mark": "rect",
     "encoding": {
       "x": {"field": "State", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}},
