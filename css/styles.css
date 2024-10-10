@@ -1,3 +1,16 @@
+
+h1 {
+    font-family: 'Oswald';
+    margin-left: 10px;
+}
+
+p {
+    font-family: 'Lato';
+    margin-left: 10px;
+}
+html, body {
+    background-color: white;
+}
 #choropleth_map {
 	top:100px;
 	bottom: 100px; 
@@ -5,4 +18,10 @@
 	right: 100px;
 	/*height: 1000px;
 	width: 800px;*/
+}
+.l-box {
+	padding: 1em;
+}
+h1,h2{
+    text-align: center;
 }

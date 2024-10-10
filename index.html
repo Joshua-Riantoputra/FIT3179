@@ -7,62 +7,64 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
   
   <!-- CSS file -->
-  <!-- <link rel="stylesheet" type="text/css" href="css/styles.css" media="all"> -->
-
-  <script type="text/javascript">
-
-    var spec2 = "js/choropleth_map.vg.json";
-    vegaEmbed('#choropleth_map', spec2).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-
-    var spec3 = "js/bubble_chart.vg.json";
-    vegaEmbed('#bubble_chart', spec3).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-    var spec4 = "js/table_heatmap.vg.json";
-    vegaEmbed('#heat', spec4).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-    var spec5 = "js/stacked_bar.vg.json";
-    vegaEmbed('#bar', spec5).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-    var spec6 = "js/example_sankey.vg.json";
-    vegaEmbed('#sank', spec6).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-  </script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+  
+  <title>Data Vis A2 - Riantoputra</title>
+  <!-- JS Script -->
+  <script src="./js/all_charts.js"></script>
 </head>
 <body>
 
-<div id="choropleth_map"></div>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<div id="bubble_chart"></div>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<div id="heat"></div>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<!-- <div id="bar"></div> -->
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<div id="sank"></div>
+  <h1>oh boy! data vis is cool</h1>
 
+  <div class="pure-g">
+    <div class="pure-u-1-8"></div>
+    <div class="pure-u-2-3" id="choropleth_map"></div>
+    <div class="pure-u-1-8"></div>
+  </div>
 
+  <br><br><br><br><br><br>
 
+  <div class="pure-g">
+    <div class="pure-u-1-8"></div>
+    <div class="pure-u-3-4">
+      <p>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p>
+      <p>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p>
+    </div>
+    <div class="pure-u-1-8"></div>
+  </div>
+
+  <h2>oh man, a scatter plot</h2>
+  
+  <div class="pure-g">
+    <div class="pure-u-1-8"></div>
+    <div class="pure-u-1-4" id="bubble_chart2"></div>
+    <div class="pure-u-1-4" id="bubble_chart3"></div>
+    <div class="pure-u-1-4" id="bubble_chart1"></div>
+    <div class="pure-u-1-8"></div>
+
+  </div>
+
+  <h2>duddee, heatmap</h2>
+
+  <div class="pure-g">
+    <div class="pure-u-1-8"></div>
+    <div class="pure-u-1-4">
+      <p>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p>
+      <p>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p>
+      <p>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p>
+    </div>
+    <div class="pure-u-1-2" id="heat"></div>
+    <div class="pure-u-1-8"></div>
+
+  </div>
+
+  <h2>OMGGG sankey made it??</h2>
+
+  <div class="pure-g">
+    <div class="pure-u-1-1" id="sankey"></div>
+  </div>
 </body>
 </html>

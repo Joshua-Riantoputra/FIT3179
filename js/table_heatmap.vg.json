@@ -1,10 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "goal state uni, change data",
+    "width": "container",
+    "height": 650,
     "data": {"url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv"},
     "mark": "rect",
     "encoding": {
-      "x": {"field": "State", "type": "ordinal", "sort":{"op": "average", "field": "Money"}},
+      "x": {"field": "State", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}},
       "y": {"field": "Field", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}},
       "color": {
         "aggregate": "mean", 

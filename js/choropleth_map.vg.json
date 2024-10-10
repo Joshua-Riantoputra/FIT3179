@@ -4,7 +4,7 @@
     "text": "Funds Spend on Research and Development in Australia",
     "anchor": "middle"
   },
-  "width": 1000,
+  "width": "container",
   "height": 800,
   "projection": {"type": "mercator"},
   "data": {
@@ -56,15 +56,15 @@
     {
       "data": {
         "values": [{
-          "label": "The Victorian government spends slightly \nmore than New South Wales on Research,\n whereas the total business expenditure \non research in New South Wales vastly \noutweighs Victoria"
+          "label": "The Victorian government spends \nslightly more than New South Wales \non Research, whereas the total \nbusiness expenditure on research in \nNew South Wales vastly outweighs Victoria"
         }]
       },
       "mark": {
         "type": "text",
         "align": "right",
         "baseline": "bottom",
-        "dx": 700,
-        "dy": 150,
+        "dx": 600,
+        "dy": 200,
         "fontSize": 15,
         "fontStyle": "italic",
         "lineBreak": "\n"

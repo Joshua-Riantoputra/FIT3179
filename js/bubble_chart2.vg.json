@@ -9,11 +9,11 @@
     "mark": {"type": "circle"},
     "encoding": {
         "x": {
-            "field": "Government",
+            "field": "Businesses",
             "type": "quantitative"
         },
         "y": {
-            "field": "Businesses",
+            "field": "Universities",
             "type": "quantitative"
         },
         "size": {"value": 200},
