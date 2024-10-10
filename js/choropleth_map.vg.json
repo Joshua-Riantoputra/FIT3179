@@ -4,8 +4,8 @@
     "text": "Funds Spend on Research and Development in Australia",
     "anchor": "middle"
   },
-  "width": 800,
-  "height": 400,
+  "width": 1000,
+  "height": 800,
   "projection": {"type": "mercator"},
   "data": {
     "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/STE_2021_AUST_GDA2020.topojson",
@@ -63,9 +63,9 @@
         "type": "text",
         "align": "right",
         "baseline": "bottom",
-        "dx": 430,
-        "dy": 100,
-        "fontSize": 11.5,
+        "dx": 700,
+        "dy": 150,
+        "fontSize": 15,
         "fontStyle": "italic",
         "lineBreak": "\n"
         },
@@ -83,9 +83,9 @@
         "type": "text",
         "align": "left",
         "baseline": "bottom",
-        "dx": -300,
-        "dy": -140,
-        "fontSize": 11.5,
+        "dx": -350,
+        "dy": -350,
+        "fontSize": 15,
         "fontStyle": "italic",
         "lineBreak": "\n"
         },

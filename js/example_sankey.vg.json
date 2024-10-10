@@ -1,49 +1,49 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "height": 300,
-    "width": 600,
+    "height": 1000,
+    "width": 500,
     "data": [
       {
         "name": "rawData",
         "values": [
             {
               "State": "New South Wales",
-              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Field": "Agricultural Sciences",
               "Money": 182386
             },
             {
               "State": "Victoria",
-              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Field": "Agricultural Sciences",
               "Money": 136537
             },
             {
               "State": "Queensland",
-              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Field": "Agricultural Sciences",
               "Money": 189667
             },
             {
               "State": "South Australia",
-              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Field": "Agricultural Sciences",
               "Money": 45757
             },
             {
               "State": "Western Australia",
-              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Field": "Agricultural Sciences",
               "Money": 53505
             },
             {
               "State": "Tasmania",
-              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Field": "Agricultural Sciences",
               "Money": 27562
             },
             {
               "State": "Northern Territory",
-              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Field": "Agricultural Sciences",
               "Money": 3961
             },
             {
               "State": "Australian Capital Territory",
-              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Field": "Agricultural Sciences",
               "Money": 8576
             },
             {
@@ -88,42 +88,42 @@
             },
             {
               "State": "New South Wales",
-              "Field": "Biomedical and Clinical Sciences",
+              "Field": "Clinical Sciences",
               "Money": 1089414
             },
             {
               "State": "Victoria",
-              "Field": "Biomedical and Clinical Sciences",
+              "Field": "Clinical Sciences",
               "Money": 1008350
             },
             {
               "State": "Queensland",
-              "Field": "Biomedical and Clinical Sciences",
+              "Field": "Clinical Sciences",
               "Money": 443752
             },
             {
               "State": "South Australia",
-              "Field": "Biomedical and Clinical Sciences",
+              "Field": "Clinical Sciences",
               "Money": 265065
             },
             {
               "State": "Western Australia",
-              "Field": "Biomedical and Clinical Sciences",
+              "Field": "Clinical Sciences",
               "Money": 301736
             },
             {
               "State": "Tasmania",
-              "Field": "Biomedical and Clinical Sciences",
+              "Field": "Clinical Sciences",
               "Money": 27711
             },
             {
               "State": "Northern Territory",
-              "Field": "Biomedical and Clinical Sciences",
+              "Field": "Clinical Sciences",
               "Money": 4640
             },
             {
               "State": "Australian Capital Territory",
-              "Field": "Biomedical and Clinical Sciences",
+              "Field": "Clinical Sciences",
               "Money": 82342
             },
             {
@@ -208,42 +208,42 @@
             },
             {
               "State": "New South Wales",
-              "Field": "Commerce, Management, Tourism and Services",
+              "Field": "Commerce",
               "Money": 161639
             },
             {
               "State": "Victoria",
-              "Field": "Commerce, Management, Tourism and Services",
+              "Field": "Commerce",
               "Money": 124486
             },
             {
               "State": "Queensland",
-              "Field": "Commerce, Management, Tourism and Services",
+              "Field": "Commerce",
               "Money": 85798
             },
             {
               "State": "South Australia",
-              "Field": "Commerce, Management, Tourism and Services",
+              "Field": "Commerce",
               "Money": 42346
             },
             {
               "State": "Western Australia",
-              "Field": "Commerce, Management, Tourism and Services",
+              "Field": "Commerce",
               "Money": 31816
             },
             {
               "State": "Tasmania",
-              "Field": "Commerce, Management, Tourism and Services",
+              "Field": "Commerce",
               "Money": 9206
             },
             {
               "State": "Northern Territory",
-              "Field": "Commerce, Management, Tourism and Services",
+              "Field": "Commerce",
               "Money": 2624
             },
             {
               "State": "Australian Capital Territory",
-              "Field": "Commerce, Management, Tourism and Services",
+              "Field": "Commerce",
               "Money": 10728
             },
             {
@@ -648,82 +648,82 @@
             },
             {
               "State": "New South Wales",
-              "Field": "Information and Computing Sciences",
+              "Field": "Computing Science",
               "Money": 193224
             },
             {
               "State": "Victoria",
-              "Field": "Information and Computing Sciences",
+              "Field": "Computing Science",
               "Money": 217583
             },
             {
               "State": "Queensland",
-              "Field": "Information and Computing Sciences",
+              "Field": "Computing Science",
               "Money": 70654
             },
             {
               "State": "South Australia",
-              "Field": "Information and Computing Sciences",
+              "Field": "Computing Science",
               "Money": 31653
             },
             {
               "State": "Western Australia",
-              "Field": "Information and Computing Sciences",
+              "Field": "Computing Science",
               "Money": 27375
             },
             {
               "State": "Tasmania",
-              "Field": "Information and Computing Sciences",
+              "Field": "Computing Science",
               "Money": 3649
             },
             {
               "State": "Northern Territory",
-              "Field": "Information and Computing Sciences",
+              "Field": "Computing Science",
               "Money": 2761
             },
             {
               "State": "Australian Capital Territory",
-              "Field": "Information and Computing Sciences",
+              "Field": "Computing Science",
               "Money": 83727
             },
             {
               "State": "New South Wales",
-              "Field": "Language, Communication and Culture",
+              "Field": "Language and Culture",
               "Money": 67904
             },
             {
               "State": "Victoria",
-              "Field": "Language, Communication and Culture",
+              "Field": "Language and Culture",
               "Money": 63383
             },
             {
               "State": "Queensland",
-              "Field": "Language, Communication and Culture",
+              "Field": "Language and Culture",
               "Money": 35115
             },
             {
               "State": "South Australia",
-              "Field": "Language, Communication and Culture",
+              "Field": "Language and Culture",
               "Money": 6988
             },
             {
               "State": "Western Australia",
-              "Field": "Language, Communication and Culture",
+              "Field": "Language and Culture",
               "Money": 10467
             },
             {
               "State": "Tasmania",
-              "Field": "Language, Communication and Culture",
+              "Field": "Language and Culture",
               "Money": 3501
             },
             {
               "State": "Northern Territory",
-              "Field": "Language, Communication and Culture",
+              "Field": "Language and Culture",
               "Money": 498
             },
             {
               "State": "Australian Capital Territory",
-              "Field": "Language, Communication and Culture",
+              "Field": "Language and Culture",
               "Money": 23156
             },
             {
@@ -928,8 +928,8 @@
             }
            ],
         "transform": [
-          {"type": "formula", "expr": "datum.Field", "as": "stk1"},
-          {"type": "formula", "expr": "datum.State", "as": "stk2"},
+          {"type": "formula", "expr": "datum.Field", "as": "stk2"},
+          {"type": "formula", "expr": "datum.State", "as": "stk1"},
           {"type": "formula", "expr": "datum.Money", "as": "size"}
         ]
       },
@@ -1086,7 +1086,7 @@
             "strokeWidth": {"field": "strokeWidth"},
             "path": {"field": "path"},
             "strokeOpacity": {
-              "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 0.9 : 0.3"
+              "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 0.9 : 0.4"
             },
             "zindex": {
               "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 1 : 0"
@@ -1111,7 +1111,7 @@
             "x": {"scale": "x", "field": "stack"},
             "y": {"field": "scaledY0"},
             "y2": {"field": "scaledY1"},
-            "fillOpacity": {"value": 0.6},
+            "fillOpacity": {"value": 1},
             "tooltip": {
               "signal": "datum.grpId + '   ' + format(datum.total, ',.0f') + '   (' + format(datum.percentage, '.1%') + ')'"
             }
@@ -1131,7 +1131,7 @@
             "yc": {"signal": "(datum.scaledY0 + datum.scaledY1)/2"},
             "align": {"signal": "datum.rightLabel ? 'left' : 'right'"},
             "baseline": {"value": "middle"},
-            "fontWeight": {"value": "bold"},
+            "fontWeight": {"value": "normal"},
             "text": {
               "signal": "abs(datum.scaledY0-datum.scaledY1) > 13 ? datum.grpId : ''"
             }
@@ -1186,7 +1186,7 @@
                     },
                     "align": {"value": "center"},
                     "baseline": {"value": "middle"},
-                    "fontWeight": {"value": "bold"},
+                    "fontWeight": {"value": "normal"},
                     "text": {"value": "Show All"}
                   }
                 }
@@ -1201,7 +1201,7 @@
         "encode": {
           "enter": {
             "stroke": {"value": "#000"},
-            "strokeWidth": {"value": 2},
+            "strokeWidth": {"value": 0.1},
             "width": {"scale": "x", "band": 1},
             "x": {"scale": "x", "field": "stack"},
             "y": {"field": "y0", "scale": "y"},
