@@ -22,7 +22,7 @@
                     "field": "Businesses",
                     "type": "quantitative"
                 },
-                "size": {"value": 100},
+                "size": {"value": 200},
             "tooltip": [
                 {"field": "Division", "type": "nominal", "title": "Field"},
                 {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},
@@ -42,7 +42,7 @@
                     "field": "Universities",
                     "type": "quantitative"
                 },
-                "size": {"value": 100},
+                "size": {"value": 200},
             "tooltip": [
                 {"field": "Division", "type": "nominal", "title": "Field"},
                 {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},
@@ -62,7 +62,7 @@
                     "field": "Government",
                     "type": "quantitative"
                 },
-                "size": {"value": 100},
+                "size": {"value": 200},
             "tooltip": [
                 {"field": "Division", "type": "nominal", "title": "Field"},
                 {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},
