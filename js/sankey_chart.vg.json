@@ -1,14 +1,16 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.2.json",
     "title": {
         "text": "University spending by field, in each state",
         "align": "center"
     },
     "width": 400,
     "height": 400,
-    "data": {
-        "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv"
-    },
+    "data": [
+            {
+                "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv"
+            }
+        ],
     "transform": [
         {
             "fold": [
@@ -27,8 +29,16 @@
                 "Health Sciences",
                 "History, Heritage and Archaeology",
                 "Human Society",
-                "Indigenous Studies"
-            ]
-        }
-    ]
+                "Indigenous Studies",
+                "Information and Computing Sciences",
+                "Language, Communication and Culture",
+                "Law and Legal Studies",
+                "Mathematical Sciences",
+                "Philosophy and Religious Studies",
+                "Physical Sciences",
+                "Psychology",
+                "Total"
+            ],
+            "as": ["stk2", "size"]
+        }    ]
 }
