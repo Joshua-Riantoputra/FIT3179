@@ -45,12 +45,12 @@
           "type": "quantitative",
           "scale": {"type": "linear"}
         },
-      "tooltip": [
-        {"field": "properties.STE_NAME21", "type": "nominal", "title": "State"},
-        {"field": "Government", "type": "quantitative", "format": ","},
-        {"field": "Universities", "type": "quantitative", "format": ","},
-        {"field": "Businesses", "type": "quantitative", "format": ","}
-        ]
+        "tooltip": [
+          {"field": "properties.STE_NAME21", "type": "nominal", "title": "State"},
+          {"field": "Government", "type": "quantitative", "format": ","},
+          {"field": "Universities", "type": "quantitative", "format": ","},
+          {"field": "Businesses", "type": "quantitative", "format": ","}
+          ]
       }
     },
     {

@@ -4,8 +4,8 @@
         "text": "Correlation Between Categories",
         "anchor": "middle"
     },
-    "width": 300,
-    "height": 300,
+    "width": 500,
+    "height": 500,
     "data": {
         "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/field_v_category.csv"
       },
