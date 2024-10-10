@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "University Spending per Field of Study, by State",
-    "data": {"url": "data/state_v_uni_field.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv"},
     "mark": "rect",
     "encoding": {
       "y": {"field": "State", "type": "ordinal"},

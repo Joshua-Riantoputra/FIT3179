@@ -8,7 +8,7 @@
     "height": 400,
     "projection": {"type": "mercator"},
     "data": {
-        "url": "data/field_v_category.csv"
+        "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/field_v_category.csv"
       },
     "hconcat": [
         {

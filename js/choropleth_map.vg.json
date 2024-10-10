@@ -23,10 +23,11 @@
       }
     },
     {"fold": ["Businesses", "Government", "Universities"], "as": ["category", "money"]},
-    {"filter": "category_selector == null || datum.category == category_selector"}
+    {"filter": "datum.category == category_selector"}
   ],
   "params": [{
     "name": "category_selector",
+    "value": "Government",
     "bind": {
         "input": "select",
         "options": ["Businesses", "Government", "Universities"],

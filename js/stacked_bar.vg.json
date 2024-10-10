@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "data/state_v_socio_HE.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_socio_HE.csv"},
     "transform": [
         {"fold": [
             "Animal Production and Animal Primary Products",
@@ -18,7 +18,7 @@
             "Information and Communication Services",
             "Law, Politics and Community Services",
             "Manufacturing",
-            "Mineral Resources (excl. Energy Resources)",
+            "Mineral Resources (excluding Energy Resources)",
             "Plant Production and Plant Primary Products",
             "Transport",
             "Expanding Knowledge",
