@@ -13,23 +13,20 @@
             "Energy",
             "Environmental Management",
             "Environmental Policy, Climate Change and Natural Hazards",
-            "Health",
             "Indigenous",
             "Information and Communication Services",
             "Law, Politics and Community Services",
             "Manufacturing",
-            "Mineral Resources (excluding Energy Resources)",
             "Plant Production and Plant Primary Products",
-            "Transport",
-            "Expanding Knowledge",
-            "Total" ],
+            "Transport"
+            ],
             "as": ["Goal", "Spending"]
         }
     ],
     "mark": "bar",
     "encoding": {
-      "x": {"aggregate": "sum", "field": "Spending"},
-      "y": {"field": "Goal"},
+      "y": {"aggregate": "sum", "field": "Spending"},
+      "x": {"field": "Goal"},
       "color": {"field": "State"}
     }
   }

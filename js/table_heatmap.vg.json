@@ -6,7 +6,11 @@
     "encoding": {
       "y": {"field": "State", "type": "ordinal"},
       "x": {"field": "Field", "type": "ordinal"},
-      "color": {"aggregate": "mean", "field": "Money"}
+      "color": {
+        "aggregate": "mean", 
+        "field": "Money",
+        "scale": {"type":  "log"}
+      }
     },
     "config": {
       "axis": {"grid": true, "tickBand": "extent"}
