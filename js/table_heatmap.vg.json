@@ -4,8 +4,8 @@
     "data": {"url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv"},
     "mark": "rect",
     "encoding": {
-      "y": {"field": "State", "type": "ordinal", "sort":{"op": "average", "field": "Money"}},
-      "x": {"field": "Field", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}},
+      "x": {"field": "State", "type": "ordinal", "sort":{"op": "average", "field": "Money"}},
+      "y": {"field": "Field", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}},
       "color": {
         "aggregate": "mean", 
         "field": "Money",

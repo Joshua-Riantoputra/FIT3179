@@ -28,6 +28,10 @@
     vegaEmbed('#bar', spec5).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
+    var spec6 = "js/example_sankey.vg.json";
+    vegaEmbed('#sank', spec6).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
   </script>
 </head>
 <body>
@@ -51,6 +55,12 @@
 <br></br>
 <br></br>
 <div id="bar"></div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<div id="sank"></div>
 
 
 

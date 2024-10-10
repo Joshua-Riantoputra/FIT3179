@@ -27,8 +27,8 @@
     ],
     "mark": "bar",
     "encoding": {
-      "y": {"aggregate": "sum", "field": "Spending"},
-      "x": {"field": "Goal"},
+      "x": {"aggregate": "sum", "field": "Spending"},
+      "y": {"field": "Goal"},
       "color": {"field": "State"}
     }
   }

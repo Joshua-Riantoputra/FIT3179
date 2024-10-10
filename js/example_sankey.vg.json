@@ -5,7 +5,928 @@
     "data": [
       {
         "name": "rawData",
-        "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv",
+        "values": [
+            {
+              "State": "New South Wales",
+              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Money": 182386
+            },
+            {
+              "State": "Victoria",
+              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Money": 136537
+            },
+            {
+              "State": "Queensland",
+              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Money": 189667
+            },
+            {
+              "State": "South Australia",
+              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Money": 45757
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Money": 53505
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Money": 27562
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Money": 3961
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Agricultural, Veterinary and Food Sciences",
+              "Money": 8576
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Biological Sciences",
+              "Money": 267676
+            },
+            {
+              "State": "Victoria",
+              "Field": "Biological Sciences",
+              "Money": 321257
+            },
+            {
+              "State": "Queensland",
+              "Field": "Biological Sciences",
+              "Money": 243490
+            },
+            {
+              "State": "South Australia",
+              "Field": "Biological Sciences",
+              "Money": 103877
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Biological Sciences",
+              "Money": 75184
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Biological Sciences",
+              "Money": 21896
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Biological Sciences",
+              "Money": 5302
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Biological Sciences",
+              "Money": 49128
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Biomedical and Clinical Sciences",
+              "Money": 1089414
+            },
+            {
+              "State": "Victoria",
+              "Field": "Biomedical and Clinical Sciences",
+              "Money": 1008350
+            },
+            {
+              "State": "Queensland",
+              "Field": "Biomedical and Clinical Sciences",
+              "Money": 443752
+            },
+            {
+              "State": "South Australia",
+              "Field": "Biomedical and Clinical Sciences",
+              "Money": 265065
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Biomedical and Clinical Sciences",
+              "Money": 301736
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Biomedical and Clinical Sciences",
+              "Money": 27711
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Biomedical and Clinical Sciences",
+              "Money": 4640
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Biomedical and Clinical Sciences",
+              "Money": 82342
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Built Environment and Design",
+              "Money": 73555
+            },
+            {
+              "State": "Victoria",
+              "Field": "Built Environment and Design",
+              "Money": 92104
+            },
+            {
+              "State": "Queensland",
+              "Field": "Built Environment and Design",
+              "Money": 31333
+            },
+            {
+              "State": "South Australia",
+              "Field": "Built Environment and Design",
+              "Money": 11502
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Built Environment and Design",
+              "Money": 32375
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Built Environment and Design",
+              "Money": 2261
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Built Environment and Design",
+              "Money": 220
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Built Environment and Design",
+              "Money": 3383
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Chemical Sciences",
+              "Money": 87695
+            },
+            {
+              "State": "Victoria",
+              "Field": "Chemical Sciences",
+              "Money": 107712
+            },
+            {
+              "State": "Queensland",
+              "Field": "Chemical Sciences",
+              "Money": 79735
+            },
+            {
+              "State": "South Australia",
+              "Field": "Chemical Sciences",
+              "Money": 33819
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Chemical Sciences",
+              "Money": 22620
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Chemical Sciences",
+              "Money": 3615
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Chemical Sciences",
+              "Money": 335
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Chemical Sciences",
+              "Money": 16449
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Commerce, Management, Tourism and Services",
+              "Money": 161639
+            },
+            {
+              "State": "Victoria",
+              "Field": "Commerce, Management, Tourism and Services",
+              "Money": 124486
+            },
+            {
+              "State": "Queensland",
+              "Field": "Commerce, Management, Tourism and Services",
+              "Money": 85798
+            },
+            {
+              "State": "South Australia",
+              "Field": "Commerce, Management, Tourism and Services",
+              "Money": 42346
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Commerce, Management, Tourism and Services",
+              "Money": 31816
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Commerce, Management, Tourism and Services",
+              "Money": 9206
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Commerce, Management, Tourism and Services",
+              "Money": 2624
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Commerce, Management, Tourism and Services",
+              "Money": 10728
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Creative Arts and Writing",
+              "Money": 40919
+            },
+            {
+              "State": "Victoria",
+              "Field": "Creative Arts and Writing",
+              "Money": 33707
+            },
+            {
+              "State": "Queensland",
+              "Field": "Creative Arts and Writing",
+              "Money": 17589
+            },
+            {
+              "State": "South Australia",
+              "Field": "Creative Arts and Writing",
+              "Money": 6695
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Creative Arts and Writing",
+              "Money": 9381
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Creative Arts and Writing",
+              "Money": 2615
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Creative Arts and Writing",
+              "Money": 785
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Creative Arts and Writing",
+              "Money": 3178
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Earth Sciences",
+              "Money": 86811
+            },
+            {
+              "State": "Victoria",
+              "Field": "Earth Sciences",
+              "Money": 71813
+            },
+            {
+              "State": "Queensland",
+              "Field": "Earth Sciences",
+              "Money": 41573
+            },
+            {
+              "State": "South Australia",
+              "Field": "Earth Sciences",
+              "Money": 20813
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Earth Sciences",
+              "Money": 70806
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Earth Sciences",
+              "Money": 16923
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Earth Sciences",
+              "Money": 2197
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Earth Sciences",
+              "Money": 38731
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Economics",
+              "Money": 85354
+            },
+            {
+              "State": "Victoria",
+              "Field": "Economics",
+              "Money": 96222
+            },
+            {
+              "State": "Queensland",
+              "Field": "Economics",
+              "Money": 37665
+            },
+            {
+              "State": "South Australia",
+              "Field": "Economics",
+              "Money": 10445
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Economics",
+              "Money": 14166
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Economics",
+              "Money": 4216
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Economics",
+              "Money": 840
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Economics",
+              "Money": 25965
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Education",
+              "Money": 98623
+            },
+            {
+              "State": "Victoria",
+              "Field": "Education",
+              "Money": 112985
+            },
+            {
+              "State": "Queensland",
+              "Field": "Education",
+              "Money": 62711
+            },
+            {
+              "State": "South Australia",
+              "Field": "Education",
+              "Money": 14697
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Education",
+              "Money": 32207
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Education",
+              "Money": 12732
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Education",
+              "Money": 5669
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Education",
+              "Money": 18704
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Engineering",
+              "Money": 513468
+            },
+            {
+              "State": "Victoria",
+              "Field": "Engineering",
+              "Money": 510555
+            },
+            {
+              "State": "Queensland",
+              "Field": "Engineering",
+              "Money": 250156
+            },
+            {
+              "State": "South Australia",
+              "Field": "Engineering",
+              "Money": 87447
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Engineering",
+              "Money": 142782
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Engineering",
+              "Money": 9990
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Engineering",
+              "Money": 5349
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Engineering",
+              "Money": 130724
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Environmental Sciences",
+              "Money": 117559
+            },
+            {
+              "State": "Victoria",
+              "Field": "Environmental Sciences",
+              "Money": 110163
+            },
+            {
+              "State": "Queensland",
+              "Field": "Environmental Sciences",
+              "Money": 140247
+            },
+            {
+              "State": "South Australia",
+              "Field": "Environmental Sciences",
+              "Money": 30163
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Environmental Sciences",
+              "Money": 67382
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Environmental Sciences",
+              "Money": 16607
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Environmental Sciences",
+              "Money": 26389
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Environmental Sciences",
+              "Money": 22110
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Health Sciences",
+              "Money": 587197
+            },
+            {
+              "State": "Victoria",
+              "Field": "Health Sciences",
+              "Money": 456664
+            },
+            {
+              "State": "Queensland",
+              "Field": "Health Sciences",
+              "Money": 221866
+            },
+            {
+              "State": "South Australia",
+              "Field": "Health Sciences",
+              "Money": 118140
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Health Sciences",
+              "Money": 74151
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Health Sciences",
+              "Money": 23147
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Health Sciences",
+              "Money": 14032
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Health Sciences",
+              "Money": 44581
+            },
+            {
+              "State": "New South Wales",
+              "Field": "History, Heritage and Archaeology",
+              "Money": 42399
+            },
+            {
+              "State": "Victoria",
+              "Field": "History, Heritage and Archaeology",
+              "Money": 30988
+            },
+            {
+              "State": "Queensland",
+              "Field": "History, Heritage and Archaeology",
+              "Money": 11496
+            },
+            {
+              "State": "South Australia",
+              "Field": "History, Heritage and Archaeology",
+              "Money": 8854
+            },
+            {
+              "State": "Western Australia",
+              "Field": "History, Heritage and Archaeology",
+              "Money": 2574
+            },
+            {
+              "State": "Tasmania",
+              "Field": "History, Heritage and Archaeology",
+              "Money": 3326
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "History, Heritage and Archaeology",
+              "Money": 139
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "History, Heritage and Archaeology",
+              "Money": 9086
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Human Society",
+              "Money": 191655
+            },
+            {
+              "State": "Victoria",
+              "Field": "Human Society",
+              "Money": 187661
+            },
+            {
+              "State": "Queensland",
+              "Field": "Human Society",
+              "Money": 87179
+            },
+            {
+              "State": "South Australia",
+              "Field": "Human Society",
+              "Money": 27462
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Human Society",
+              "Money": 23274
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Human Society",
+              "Money": 13266
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Human Society",
+              "Money": 10623
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Human Society",
+              "Money": 102319
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Indigenous Studies",
+              "Money": 73685
+            },
+            {
+              "State": "Victoria",
+              "Field": "Indigenous Studies",
+              "Money": 36342
+            },
+            {
+              "State": "Queensland",
+              "Field": "Indigenous Studies",
+              "Money": 33733
+            },
+            {
+              "State": "South Australia",
+              "Field": "Indigenous Studies",
+              "Money": 31042
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Indigenous Studies",
+              "Money": 39219
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Indigenous Studies",
+              "Money": 2430
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Indigenous Studies",
+              "Money": 5339
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Indigenous Studies",
+              "Money": 35808
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Information and Computing Sciences",
+              "Money": 193224
+            },
+            {
+              "State": "Victoria",
+              "Field": "Information and Computing Sciences",
+              "Money": 217583
+            },
+            {
+              "State": "Queensland",
+              "Field": "Information and Computing Sciences",
+              "Money": 70654
+            },
+            {
+              "State": "South Australia",
+              "Field": "Information and Computing Sciences",
+              "Money": 31653
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Information and Computing Sciences",
+              "Money": 27375
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Information and Computing Sciences",
+              "Money": 3649
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Information and Computing Sciences",
+              "Money": 2761
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Information and Computing Sciences",
+              "Money": 83727
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Language, Communication and Culture",
+              "Money": 67904
+            },
+            {
+              "State": "Victoria",
+              "Field": "Language, Communication and Culture",
+              "Money": 63383
+            },
+            {
+              "State": "Queensland",
+              "Field": "Language, Communication and Culture",
+              "Money": 35115
+            },
+            {
+              "State": "South Australia",
+              "Field": "Language, Communication and Culture",
+              "Money": 6988
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Language, Communication and Culture",
+              "Money": 10467
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Language, Communication and Culture",
+              "Money": 3501
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Language, Communication and Culture",
+              "Money": 498
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Language, Communication and Culture",
+              "Money": 23156
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Law and Legal Studies",
+              "Money": 77231
+            },
+            {
+              "State": "Victoria",
+              "Field": "Law and Legal Studies",
+              "Money": 42517
+            },
+            {
+              "State": "Queensland",
+              "Field": "Law and Legal Studies",
+              "Money": 28444
+            },
+            {
+              "State": "South Australia",
+              "Field": "Law and Legal Studies",
+              "Money": 6499
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Law and Legal Studies",
+              "Money": 2901
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Law and Legal Studies",
+              "Money": 3360
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Law and Legal Studies",
+              "Money": 2185
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Law and Legal Studies",
+              "Money": 24030
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Mathematical Sciences",
+              "Money": 54595
+            },
+            {
+              "State": "Victoria",
+              "Field": "Mathematical Sciences",
+              "Money": 57199
+            },
+            {
+              "State": "Queensland",
+              "Field": "Mathematical Sciences",
+              "Money": 28536
+            },
+            {
+              "State": "South Australia",
+              "Field": "Mathematical Sciences",
+              "Money": 8142
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Mathematical Sciences",
+              "Money": 20411
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Mathematical Sciences",
+              "Money": 1403
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Mathematical Sciences",
+              "Money": 19
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Mathematical Sciences",
+              "Money": 6303
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Philosophy and Religious Studies",
+              "Money": 28454
+            },
+            {
+              "State": "Victoria",
+              "Field": "Philosophy and Religious Studies",
+              "Money": 21919
+            },
+            {
+              "State": "Queensland",
+              "Field": "Philosophy and Religious Studies",
+              "Money": 8125
+            },
+            {
+              "State": "South Australia",
+              "Field": "Philosophy and Religious Studies",
+              "Money": 1692
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Philosophy and Religious Studies",
+              "Money": 9962
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Philosophy and Religious Studies",
+              "Money": 1655
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Philosophy and Religious Studies",
+              "Money": 41
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Philosophy and Religious Studies",
+              "Money": 2615
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Physical Sciences",
+              "Money": 154332
+            },
+            {
+              "State": "Victoria",
+              "Field": "Physical Sciences",
+              "Money": 95971
+            },
+            {
+              "State": "Queensland",
+              "Field": "Physical Sciences",
+              "Money": 46265
+            },
+            {
+              "State": "South Australia",
+              "Field": "Physical Sciences",
+              "Money": 12686
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Physical Sciences",
+              "Money": 23695
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Physical Sciences",
+              "Money": 1272
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Physical Sciences",
+              "Money": 252
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Physical Sciences",
+              "Money": 106847
+            },
+            {
+              "State": "New South Wales",
+              "Field": "Psychology",
+              "Money": 122500
+            },
+            {
+              "State": "Victoria",
+              "Field": "Psychology",
+              "Money": 156320
+            },
+            {
+              "State": "Queensland",
+              "Field": "Psychology",
+              "Money": 77240
+            },
+            {
+              "State": "South Australia",
+              "Field": "Psychology",
+              "Money": 20421
+            },
+            {
+              "State": "Western Australia",
+              "Field": "Psychology",
+              "Money": 18615
+            },
+            {
+              "State": "Tasmania",
+              "Field": "Psychology",
+              "Money": 4240
+            },
+            {
+              "State": "Northern Territory",
+              "Field": "Psychology",
+              "Money": 4211
+            },
+            {
+              "State": "Australian Capital Territory",
+              "Field": "Psychology",
+              "Money": 11043
+            }
+           ],
         "transform": [
           {"type": "formula", "expr": "datum.Field", "as": "stk1"},
           {"type": "formula", "expr": "datum.State", "as": "stk2"},
@@ -21,7 +942,7 @@
             "expr": "!groupSelector || groupSelector.stk1 == datum.stk1 || groupSelector.stk2 == datum.stk2"
           },
           {"type": "formula", "expr": "datum.stk1+datum.stk2", "as": "key"},
-          {"type": "fold", "fields": ["Field", "State"], "as": ["stack", "grpId"]},
+          {"type": "fold", "fields": ["stk1", "stk2"], "as": ["stack", "grpId"]},
           {
             "type": "formula",
             "expr": "datum.stack == 'stk1' ? datum.stk1+' '+datum.stk2 : datum.stk2+' '+datum.stk1",
