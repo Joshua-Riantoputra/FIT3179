@@ -1,0 +1,34 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "University spending by field, in each state",
+        "align": "center"
+    },
+    "width": 400,
+    "height": 400,
+    "data": {
+        "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/state_v_uni_field.csv"
+    },
+    "transform": [
+        {
+            "fold": [
+                "Agricultural, Veterinary and Food Sciences",
+                "Biological Sciences",
+                "Biomedical and Clinical Sciences",
+                "Built Environment and Design",
+                "Chemical Sciences",
+                "Commerce, Management, Tourism and Services",
+                "Creative Arts and Writing",
+                "Earth Sciences",
+                "Economics",
+                "Education",
+                "Engineering",
+                "Environmental Sciences",
+                "Health Sciences",
+                "History, Heritage and Archaeology",
+                "Human Society",
+                "Indigenous Studies"
+            ]
+        }
+    ]
+}
