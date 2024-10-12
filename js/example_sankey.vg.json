@@ -1066,7 +1066,7 @@
             "stroke": [
               {
                 "test": "groupSelector && groupSelector.stack=='stk1'",
-                "scale": "color",
+                "scale": "viridis",
                 "field": "stk2"
               },
               {"scale": "color", "field": "stk1"}
