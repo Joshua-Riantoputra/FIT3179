@@ -34,13 +34,13 @@
         ],    
     "mark": "rect",
     "encoding": {
-      "x": {"axis": {"labelAngle": -40}, "field": "State", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "ascending"}, "title": ""},
-      "y": {"field": "Field", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "ascending"}, "title": ""},
+      "x": {"axis": {"labelAngle": -20}, "field": "State", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "ascending"}, "title": ""},
+      "y": {"field": "Field", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "descending"}, "title": ""},
       "color": {
         "aggregate": "mean", 
         "field": "Money",
         "scale": {"type":  "log"},
-        "legend": {"direction": "horizontal", "orient": "top", "gradientLength": {"expr": "width"}}
+        "legend": {"title": "Expenditure", "direction": "horizontal", "orient": "top", "gradientLength": {"expr": "width"}}
       },
       "fillOpacity": {
         "condition": {"param": "highlight", "value": 1, "empty": true},

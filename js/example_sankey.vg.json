@@ -1080,7 +1080,7 @@
               "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 1 : 0"
             },
             "tooltip": {
-              "signal": "datum.stk1 + ' → ' + datum.stk2 + '    ' + format(datum.size, ',.0f') + '   (' + format(datum.percentage, '.1%') + ')'"
+              "signal": "datum.stk1 + ' on ' + datum.stk2 + ':  ' + format(datum.size, ',.0f')"
             }
           },
           "hover": {"strokeOpacity": {"value": 1}}
@@ -1101,7 +1101,7 @@
             "y2": {"field": "scaledY1"},
             "fillOpacity": {"value": 1},
             "tooltip": {
-              "signal": "datum.grpId + '   ' + format(datum.total, ',.0f') + '   (' + format(datum.percentage, '.1%') + ')'"
+              "signal": "datum.grpId + ' Expenditure: ' + format(datum.total, ',.0f')"
             }
           },
           "hover": {"fillOpacity": {"value": 1}}
