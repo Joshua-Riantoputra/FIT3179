@@ -26,6 +26,12 @@
         "Knowledge"
       ], "as": ["Field", "Money"]}
     ],
+    "params": [
+      {
+        "name": "highlight",
+        "select": {"type": "point", "on": "mouseover"}
+      }
+        ],    
     "mark": "rect",
     "encoding": {
       "x": {"axis": {"labelAngle": -40}, "field": "State", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "ascending"}, "title": ""},
@@ -35,6 +41,10 @@
         "field": "Money",
         "scale": {"type":  "log"},
         "legend": {"direction": "horizontal", "orient": "top", "gradientLength": {"expr": "width"}}
+      },
+      "fillOpacity": {
+        "condition": {"param": "highlight", "value": 1, "empty": true},
+        "value": 0.3
       },
       "tooltip": [
         {"field": "State", "type": "nominal"},
