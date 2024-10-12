@@ -11,3 +11,7 @@ body {
     font-family: 'Poppins';
     text-align: justify;
 }
+sankeyClass {
+    margin: auto;
+    width: 1400;
+}
