@@ -17,6 +17,7 @@
             "type": "quantitative"
         },
         "size": {"value": 200},
+        "opacity": {"value": 1},
     "tooltip": [
         {"field": "Division", "type": "nominal", "title": "Field"},
         {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},

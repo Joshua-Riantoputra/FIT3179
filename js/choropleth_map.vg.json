@@ -67,7 +67,7 @@
         "x": "width",
         "y": "height",
         "dx": 100,
-        "dy": -70,
+        "dy": -150,
         "fontSize": 15,
         "fontStyle": "italic",
         "lineBreak": "\n"

@@ -28,8 +28,8 @@
     ],
     "mark": "rect",
     "encoding": {
-      "x": {"axis": {"labelAngle": -40}, "field": "State", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "descending"}, "title": ""},
-      "y": {"field": "Field", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "descending"}, "title": ""},
+      "x": {"axis": {"labelAngle": -40}, "field": "State", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "ascending"}, "title": ""},
+      "y": {"field": "Field", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "ascending"}, "title": ""},
       "color": {
         "aggregate": "mean", 
         "field": "Money",
