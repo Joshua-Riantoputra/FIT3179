@@ -57,9 +57,11 @@
       "mark": {
         "type": "text",
         "align": "right",
-        "baseline": "bottom",
-        "dx": 540,
-        "dy": 150,
+        "baseline": "middle",
+        "x": "width",
+        "dx": 100,
+        "y": "height",
+        "dy": -70,
         "fontSize": 15,
         "fontStyle": "italic",
         "lineBreak": "\n"
@@ -77,9 +79,9 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "baseline": "bottom",
-        "dx": -350,
-        "dy": -250,
+        "x": 0,
+        "y": 0,
+        "baseline": "top",
         "fontSize": 15,
         "fontStyle": "italic",
         "lineBreak": "\n"

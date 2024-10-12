@@ -33,7 +33,8 @@
       "color": {
         "aggregate": "mean", 
         "field": "Money",
-        "scale": {"type":  "log"}
+        "scale": {"type":  "log"},
+        "legend": {"direction": "horizontal", "orient": "top", "gradientLength": {"expr": "width"}}
       },
       "tooltip": [
         {"field": "State", "type": "nominal"},

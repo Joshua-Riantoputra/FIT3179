@@ -1,28 +1,39 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
-    "height": "container",
+    "height": 300,
     "data": {
         "url": "https://raw.githubusercontent.com/Joshua-Riantoputra/FIT3179/refs/heads/main/data/field_v_category.csv"
       },
-
-    "mark": {"type": "circle"},
-    "encoding": {
-        "x": {
-            "field": "Government",
-            "type": "quantitative"
+    "layer": [
+        {
+            "mark": {"type": "circle"},
+            "encoding": {
+                "x": {
+                    "field": "Government",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "Businesses",
+                    "type": "quantitative"
+                },
+                "size": {"value": 200},
+            "tooltip": [
+                {"field": "Division", "type": "nominal", "title": "Field"},
+                {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},
+                {"field": "Universities", "type": "quantitative", "title": "Universities", "format": ","},
+                {"field": "Businesses", "type": "quantitative", "title": "Businesses", "format": ","}
+                ]
+            }
         },
-        "y": {
-            "field": "Businesses",
-            "type": "quantitative"
-        },
-        "size": {"value": 200},
-    "tooltip": [
-        {"field": "Division", "type": "nominal", "title": "Field"},
-        {"field": "Government", "type": "quantitative", "title": "Government", "format": ","},
-        {"field": "Universities", "type": "quantitative", "title": "Universities", "format": ","},
-        {"field": "Businesses", "type": "quantitative", "title": "Businesses", "format": ","}
-        ]
-    },
+        {
+            "mark": {"type": "line", "color": "green"},
+            "transform": [{"regression": "Businesses", "on": "Government"}],
+            "encoding": {
+                "x": {"field": "Government", "type": "quantitative"},
+                "y": {"field": "Businesses", "type": "quantitative"}
+            }
+        }
+    ],
     "config": {"font": "Poppins", "background": "rgb(245,245,245)"}
   }
