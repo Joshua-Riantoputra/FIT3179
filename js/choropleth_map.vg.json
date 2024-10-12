@@ -35,10 +35,16 @@
       "mark": {"type": "geoshape"},
       "encoding": {
         "color": {
-          "title": "Spending (thousands of Dollars)",
+          "title": "Expenditure",
           "field": "money", 
           "type": "quantitative",
-          "scale": {"type": "linear"}
+          "scale": {"type": "linear"},
+          "legend": {
+            "titleAlign": "right",
+            "labelAlign": "right",
+            "labelOffset": -70,
+            "gradientLength": {"expr": "height/2"}
+          }
         },
         "tooltip": [
           {"field": "properties.STE_NAME21", "type": "nominal", "title": "State"},
@@ -59,8 +65,8 @@
         "align": "right",
         "baseline": "middle",
         "x": "width",
-        "dx": 100,
         "y": "height",
+        "dx": 100,
         "dy": -70,
         "fontSize": 15,
         "fontStyle": "italic",

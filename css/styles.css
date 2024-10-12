@@ -1,4 +1,3 @@
-
 html, body {
     background-color: rgb(245,245,245);
 }
@@ -10,7 +9,4 @@ h1,h2{
 }
 body {
     font-family: 'Poppins';
-}
-.vis-container {
-    width: 100%;
 }
