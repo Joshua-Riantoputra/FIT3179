@@ -26,8 +26,7 @@
     "value": "Government",
     "bind": {
         "input": "select",
-        "options": ["Businesses", "Government", "Universities"],
-        "labels": ["Businesses", "Government", "Universities"],
+        "options": ["Government", "Universities", "Businesses"],
         "name": "Select Category"
       }
     }],
@@ -60,7 +59,7 @@
         "align": "right",
         "baseline": "bottom",
         "dx": 540,
-        "dy": 170,
+        "dy": 150,
         "fontSize": 15,
         "fontStyle": "italic",
         "lineBreak": "\n"
@@ -80,7 +79,7 @@
         "align": "left",
         "baseline": "bottom",
         "dx": -350,
-        "dy": -350,
+        "dy": -250,
         "fontSize": 15,
         "fontStyle": "italic",
         "lineBreak": "\n"
@@ -90,5 +89,5 @@
       }
     }
 ],
-"config": {"font": "Poppins"}
+"config": {"background" : "rgb(245,245,245)"}
 }

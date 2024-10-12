@@ -24,5 +24,5 @@
         {"field": "Businesses", "type": "quantitative", "title": "Businesses", "format": ","}
         ]
     },
-    "config": {"font": "Poppins"}
+    "config": {"font": "Poppins", "background": "rgb(245,245,245)"}
   }

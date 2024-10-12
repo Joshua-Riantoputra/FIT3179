@@ -43,7 +43,8 @@
     },
     "config": {
       "axis": {"grid": true, "tickBand": "extent"},
-      "font": "Poppins"
+      "font": "Poppins", 
+      "background": "rgb(245,245,245)"
     }
   }
   
