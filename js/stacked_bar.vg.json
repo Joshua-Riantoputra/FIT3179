@@ -30,5 +30,6 @@
       "x": {"aggregate": "sum", "field": "Spending"},
       "y": {"field": "Goal"},
       "color": {"field": "State"}
-    }
+    },
+    "config": {"font": "Poppins"}
   }

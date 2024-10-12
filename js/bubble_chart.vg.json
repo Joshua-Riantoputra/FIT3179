@@ -23,6 +23,6 @@
         {"field": "Universities", "type": "quantitative", "title": "Universities", "format": ","},
         {"field": "Businesses", "type": "quantitative", "title": "Businesses", "format": ","}
         ]
-    }
-
+    },
+    "config": {"font": "Poppins"}
   }

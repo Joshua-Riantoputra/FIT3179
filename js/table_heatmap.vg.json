@@ -28,7 +28,7 @@
     ],
     "mark": "rect",
     "encoding": {
-      "x": {"field": "State", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "descending"}, "title": ""},
+      "x": {"axis": {"labelAngle": -40}, "field": "State", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "descending"}, "title": ""},
       "y": {"field": "Field", "type": "ordinal", "sort":{"op": "sum", "field": "Money", "order": "descending"}, "title": ""},
       "color": {
         "aggregate": "mean", 
@@ -42,7 +42,8 @@
       ]
     },
     "config": {
-      "axis": {"grid": true, "tickBand": "extent"}
+      "axis": {"grid": true, "tickBand": "extent"},
+      "font": "Poppins"
     }
   }
   

@@ -472,6 +472,7 @@
   ],
   "config": {
     "view": {"stroke": "transparent"},
-    "text": {"fontSize": 13, "fill": "#333333"}
+    "text": {"fontSize": 13, "fill": "#333333"},
+    "font": "Poppins"
   }
 }
