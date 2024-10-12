@@ -13,8 +13,8 @@
         "Economics",
         "Education and Training",
         "Energy",
-        "Environmental Management",
-        "Environmental Policy",
+        "Environment",
+        "Environment",
         "Health",
         "Indigenous",
         "Information Services",
@@ -28,8 +28,8 @@
     ],
     "mark": "rect",
     "encoding": {
-      "x": {"field": "State", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}},
-      "y": {"field": "Field", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}},
+      "x": {"field": "State", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}, "title": ""},
+      "y": {"field": "Field", "type": "ordinal", "sort":{"op": "average", "field": "Money", "order": "descending"}, "title": ""},
       "color": {
         "aggregate": "mean", 
         "field": "Money",
