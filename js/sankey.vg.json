@@ -1058,10 +1058,6 @@
         "encode": {
           "update": {
             "stroke": [
-              {
-                "test": "groupSelector && groupSelector.stack=='State'",
-                "field": "Field"
-              },
               {"scale": "color", "field": "State"}
             ],
             "strokeWidth": {"field": "strokeWidth"},
