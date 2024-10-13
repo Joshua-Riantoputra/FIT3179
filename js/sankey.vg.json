@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "height": 500,
+    "height": 750,
     "width": 1400,
     "data": [
       {
@@ -1114,7 +1114,7 @@
             "baseline": {"value": "middle"},
             "fontWeight": {"value": "normal"},
             "text": {
-              "signal": "abs(datum.scaledY0-datum.scaledY1) > 13 ? datum.grpId : ''"
+              "signal": "abs(datum.scaledY0-datum.scaledY1) > 5 ? datum.grpId : ''"
             }
           }
         }
