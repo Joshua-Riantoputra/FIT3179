@@ -1044,7 +1044,7 @@
       },
       {
         "name": "stackNames",
-        "type": "ordinal",
+        "type": "sequential",
         "range": ["Source", "Destination"],
         "domain": ["State", "Field"]
       }
